@@ -4,7 +4,7 @@
 This project is a static User Profile interface developed as part of the **UNLOX** assessment. The primary goal was to demonstrate proficiency in Flutter layout construction using exclusively **Stateless Widgets**.
 
 ## 📸 App Preview (UI Mockup)
-![User Profile Preview](./screemshots/app_preview.png)
+![User Profile Preview](https://raw.githubusercontent.com/isy225/Project_flutter/master/user_profile_ui/screemshots/app_preview.png)
 *(The interface is designed to be clean, readable, and professional, following the RIVOQUIX LEARNING guidelines)*
 
 ## 🛠️ Technical Requirements Met

@@ -3,22 +3,26 @@ import 'event.dart';
 import 'add_event_page.dart';
 
 void main() {
-  runApp(CampusEventApp());
+  runApp(const CampusEventApp());
 }
 
 class CampusEventApp extends StatelessWidget {
+  const CampusEventApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Campus Events',
-      home: EventHomePage(),
+      home: const EventHomePage(),
     );
   }
 }
 
 class EventHomePage extends StatefulWidget {
+  const EventHomePage({super.key});
+
   @override
-  _EventHomePageState createState() => _EventHomePageState();
+  State<EventHomePage> createState() => _EventHomePageState();
 }
 
 class _EventHomePageState extends State<EventHomePage> {

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "TechNova Inc.",
+    "salary": "$3,500/mo",
+    "type": "Remote",
+    "location": "Worldwide",
+    "description": "We are looking for a passionate Frontend Developer to join our remote team. You will build beautiful, responsive UIs using React.js and collaborate closely with our design team to deliver pixel-perfect experiences.",
+    "requirements": ["React.js", "CSS / Tailwind", "Git & GitHub", "REST APIs"],
+    "posted": "2 days ago"
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Designer",
+    "company": "Creative Studio",
+    "salary": "$3,000/mo",
+    "type": "Full-Time",
+    "location": "New York, USA",
+    "description": "Creative Studio is seeking a talented UI/UX Designer to craft intuitive digital experiences. You will work on web and mobile products, conduct user research, and deliver polished Figma prototypes.",
+    "requirements": ["Figma", "User Research", "Wireframing", "Prototyping"],
+    "posted": "1 day ago"
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "company": "DataBridge Co.",
+    "salary": "$4,200/mo",
+    "type": "Full-Time",
+    "location": "San Francisco, USA",
+    "description": "DataBridge Co. needs a skilled Backend Developer to maintain and scale our Node.js APIs. You will design robust database schemas, write clean server-side logic, and ensure high availability.",
+    "requirements": ["Node.js", "Express", "PostgreSQL", "Docker"],
+    "posted": "3 days ago"
+  },
+  {
+    "id": 4,
+    "title": "Data Analyst",
+    "company": "Insight Labs",
+    "salary": "$2,800/mo",
+    "type": "Remote",
+    "location": "Worldwide",
+    "description": "Insight Labs is hiring a Data Analyst to turn raw data into actionable business insights. You will create dashboards, run SQL queries, and present findings to stakeholders in clear, compelling reports.",
+    "requirements": ["SQL", "Python", "Tableau", "Excel"],
+    "posted": "5 days ago"
+  },
+  {
+    "id": 5,
+    "title": "Mobile Developer",
+    "company": "AppWorks",
+    "salary": "$3,800/mo",
+    "type": "Remote",
+    "location": "Worldwide",
+    "description": "AppWorks is looking for a Mobile Developer to build cross-platform apps with React Native. You will own features end-to-end, from design handoff to App Store deployment.",
+    "requirements": ["React Native", "JavaScript", "iOS / Android", "Firebase"],
+    "posted": "1 week ago"
+  },
+  {
+    "id": 6,
+    "title": "DevOps Engineer",
+    "company": "CloudStack",
+    "salary": "$5,000/mo",
+    "type": "Full-Time",
+    "location": "London, UK",
+    "description": "CloudStack needs a DevOps Engineer to streamline our CI/CD pipelines and manage cloud infrastructure on AWS. You will automate deployments, monitor systems, and champion reliability.",
+    "requirements": ["AWS", "Kubernetes", "CI/CD", "Terraform"],
+    "posted": "4 days ago"
+  }
+]

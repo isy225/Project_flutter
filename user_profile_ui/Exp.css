@@ -1,0 +1,119 @@
+/* Import des polices Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset des marges et padding par défaut, et définition de la police globale */
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Poppins", sans-serif;
+}
+
+/* Styles pour le corps de la page : hauteur pleine, couleur de fond, padding latéral */
+body{
+    height: 100vh;
+    background-color: #FEF0D3;
+    padding: 0 12%;
+}
+
+/* Styles pour l'en-tête : disposition en flex, espacement entre logo et menu */
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+/* Suppression du soulignement par défaut des liens */
+a{
+    text-decoration: none;
+}
+
+/* Styles pour le logo : poids de police, taille, couleur */
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+    color: #6F4F2A;
+}
+
+/* Styles pour le menu : liste en flex, espacement entre éléments */
+.menu ul {
+    display: flex;
+    gap: 40px; /*Espacement entre les elements du menu*/
+    list-style: none;
+    align-items: center;
+}
+/* Couleur des liens du menu et transition au survol */
+.menu a{
+    color: #333;
+    transition: 0.5s;
+}
+
+/* Couleur au survol des liens du menu */
+.menu a:hover{
+    color: #81522e;
+}
+
+/* Styles pour le bouton : padding, taille, bordures, couleur de fond, transition */
+.btn {
+    padding: 8px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #81522D;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Couleur de fond au survol du bouton */
+.btn:hover {
+    background-color: #6F4F2A;
+}
+
+
+/* Styles pour la section principale : disposition en colonne centrée */
+.home {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+/* Styles pour le titre h4 : police spéciale, taille, couleur */
+.home h4 {
+    font-family: "Monsieur La Doulaise", sans-serif;
+    font-size: 72px;
+    color: #81522e;
+}
+
+/* Styles pour le titre h1 : taille, couleur, hauteur de ligne */
+.home h1 {
+    font-size: 72px;
+    color: #81522e;
+    line-height: 72px; /* Ajuste l'espacement entre les lignes pour éviter les chevauchements */
+}
+
+/* Styles pour la section des images : disposition en flex centrée, espacement */
+.images {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espacement entre les images */
+}
+
+/* Styles pour les images : largeur, hauteur, ajustement, bordures arrondies, transition */
+.images img{
+    width: 20%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.images img:hover{
+    width: 30%;
+    cursor: pointer;
+    filter: contrast(1.1);
+}

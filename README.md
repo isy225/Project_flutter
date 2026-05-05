@@ -4,7 +4,7 @@
 This project is a static User Profile interface developed as part of the **UNLOX** assessment. The primary goal was to demonstrate proficiency in Flutter layout construction using exclusively **Stateless Widgets**.
 
 ## 📸 App Preview (UI Mockup)
-![User Profile Preview](./app_preview.png)
+![User Profile Preview](./screemshots/app_preview.png)
 *(The interface is designed to be clean, readable, and professional, following the RIVOQUIX LEARNING guidelines)*
 
 ## 🛠️ Technical Requirements Met
@@ -22,7 +22,7 @@ According to the official assessment criteria:
 ## 📂 Repository Structure
 *   `lib/main.dart`: Main source code containing the UI logic.
 *   `assets/`: Local image assets used in the application.
-*   `app_preview.png`: Screenshot of the final rendered application.
+*   `screemshots/`: Screenshot of the final rendered application.
 
 ## 🚀 How to Run the Project
 1. Clone the repository: `git clone <your-github-link>`
